@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manyetik Alan ve Parçacık Hareketi Kavram Haritası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Manyetik Alanlarda Parçacık Hareketi</h1>
+
+    <div class="concept-map">
+
+        <!-- 1. Düz Tel -->
+        <div class="field-source card">
+            <h2>(1) Düz Telin Manyetik Alanı</h2>
+            <div class="details">
+                <!-- Yüksüz Cisim -->
+                <div class="particle-type card">
+                    <h3>Yüksüz Cisim</h3>
+                    <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Düz bir telin manyetik alanında duran yüksüz cisim.</p>
+                            <div class="visualization" id="wire-neutral-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Hareketli (10 birim hız)</h4>
+                            <p>Düz bir telin manyetik alanında 10 birim hızla hareket eden yüksüz cisim.</p>
+                            <div class="visualization" id="wire-neutral-moving">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pozitif Yüklü Cisim -->
+                <div class="particle-type card">
+                    <h3>Pozitif Yüklü Cisim</h3>
+                     <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Düz bir telin manyetik alanında duran pozitif yüklü cisim.</p>
+                            <div class="visualization" id="wire-positive-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Tele Paralel Hareketli (10 birim hız)</h4>
+                            <p>Düz bir tele paralel olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="wire-positive-parallel">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Tele Dik Hareketli (10 birim hız)</h4>
+                            <p>Düz bir tele dik olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="wire-positive-perpendicular">Çizim Alanı</div>
+                        </div>
+                         <div class="motion-state card">
+                            <h4>Açılı Hareketli (10 birim hız)</h4>
+                            <p>Düz bir tele açılı olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="wire-positive-angled">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Negatif Yüklü Cisim -->
+                <div class="particle-type card">
+                    <h3>Negatif Yüklü Cisim</h3>
+                     <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Düz bir telin manyetik alanında duran negatif yüklü cisim.</p>
+                            <div class="visualization" id="wire-negative-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Tele Paralel Hareketli (10 birim hız)</h4>
+                            <p>Düz bir tele paralel olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="wire-negative-parallel">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Tele Dik Hareketli (10 birim hız)</h4>
+                            <p>Düz bir tele dik olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="wire-negative-perpendicular">Çizim Alanı</div>
+                        </div>
+                         <div class="motion-state card">
+                            <h4>Açılı Hareketli (10 birim hız)</h4>
+                            <p>Düz bir tele açılı olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="wire-negative-angled">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <button class="toggle-button">Detayları Göster/Gizle</button>
+        </div>
+
+        <!-- 2. Çember -->
+        <div class="field-source card">
+            <h2>(2) Çemberin Manyetik Alanı</h2>
+             <div class="details" style="display: none;"> <!-- Başlangıçta gizli -->
+                <!-- Yüksüz Cisim -->
+                 <div class="particle-type card">
+                    <h3>Yüksüz Cisim</h3>
+                    <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Bir çemberin manyetik alanında duran yüksüz cisim.</p>
+                            <div class="visualization" id="circle-neutral-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin manyetik alanında 10 birim hızla hareket eden yüksüz cisim.</p>
+                            <div class="visualization" id="circle-neutral-moving">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pozitif Yüklü Cisim -->
+                <div class="particle-type card">
+                    <h3>Pozitif Yüklü Cisim</h3>
+                     <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Bir çemberin manyetik alanında duran pozitif yüklü cisim.</p>
+                            <div class="visualization" id="circle-positive-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Düzleme Paralel Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin düzlemine paralel olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="circle-positive-parallel">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Düzleme Dik Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin düzlemine dik olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="circle-positive-perpendicular">Çizim Alanı</div>
+                        </div>
+                         <div class="motion-state card">
+                            <h4>Açılı Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin düzlemine açılı olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="circle-positive-angled">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Negatif Yüklü Cisim -->
+                 <div class="particle-type card">
+                    <h3>Negatif Yüklü Cisim</h3>
+                     <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Bir çemberin manyetik alanında duran negatif yüklü cisim.</p>
+                            <div class="visualization" id="circle-negative-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Düzleme Paralel Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin düzlemine paralel olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="circle-negative-parallel">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Düzleme Dik Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin düzlemine dik olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="circle-negative-perpendicular">Çizim Alanı</div>
+                        </div>
+                         <div class="motion-state card">
+                            <h4>Açılı Hareketli (10 birim hız)</h4>
+                            <p>Bir çemberin düzlemine açılı olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="circle-negative-angled">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <button class="toggle-button">Detayları Göster/Gizle</button>
+        </div>
+
+        <!-- 3. Bobin (Solenoid) -->
+        <div class="field-source card">
+            <h2>(3) Bobinin Manyetik Alanı</h2>
+             <div class="details" style="display: none;"> <!-- Başlangıçta gizli -->
+                 <!-- Yüksüz Cisim -->
+                 <div class="particle-type card">
+                    <h3>Yüksüz Cisim</h3>
+                    <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Bir bobinin manyetik alanında duran yüksüz cisim.</p>
+                            <div class="visualization" id="solenoid-neutral-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin manyetik alanında 10 birim hızla hareket eden yüksüz cisim.</p>
+                            <div class="visualization" id="solenoid-neutral-moving">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pozitif Yüklü Cisim -->
+                 <div class="particle-type card">
+                    <h3>Pozitif Yüklü Cisim</h3>
+                     <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Bir bobinin manyetik alanında duran pozitif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-positive-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Eksene Paralel Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin eksenine paralel olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-positive-parallel">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Eksene Dik Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin eksenine dik olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-positive-perpendicular">Çizim Alanı</div>
+                        </div>
+                         <div class="motion-state card">
+                            <h4>Açılı Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin eksenine açılı olarak, manyetik alanda 10 birim hızla hareket eden pozitif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-positive-angled">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Negatif Yüklü Cisim -->
+                 <div class="particle-type card">
+                    <h3>Negatif Yüklü Cisim</h3>
+                     <div class="motion-states">
+                        <div class="motion-state card">
+                            <h4>Durgun</h4>
+                            <p>Bir bobinin manyetik alanında duran negatif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-negative-still">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Eksene Paralel Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin eksenine paralel olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-negative-parallel">Çizim Alanı</div>
+                        </div>
+                        <div class="motion-state card">
+                            <h4>Eksene Dik Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin eksenine dik olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-negative-perpendicular">Çizim Alanı</div>
+                        </div>
+                         <div class="motion-state card">
+                            <h4>Açılı Hareketli (10 birim hız)</h4>
+                            <p>Bir bobinin eksenine açılı olarak, manyetik alanda 10 birim hızla hareket eden negatif yüklü cisim.</p>
+                            <div class="visualization" id="solenoid-negative-angled">Çizim Alanı</div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <button class="toggle-button">Detayları Göster/Gizle</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
